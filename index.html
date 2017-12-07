@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Architecture</title>
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Poppins:600|Fjalla+One" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="js/jquery.fullPage.css" />
+<script src="js/jquery.easings.min.js"></script>
+<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+<script type="text/javascript" src="js/fullpage.min.js"></script>
+
+</head>
+<body>
+	<div id="fulljs">
+		<div class="border"></div>
+		<section class="section">
+			<div class="cont">
+			<div class="container" onclick="menu(this)">
+			  <div class="bar1"></div>
+			  <div class="bar2"></div>
+			  <div class="bar3"></div>
+			</div>
+			<h2 class="logo">ferronato.</h2>
+			<div class="menu">
+				<a href="#"><p class="menutext">section1</p></a>
+				<a href="#"><p class="menutext">section</p></a>
+				<a href="#"><p class="menutext">section</p></a>
+				<a href="#"><p class="menutext">section</p></a>
+			</div>
+			<article class="sectuno">
+				<div class="color uno">
+					<h1 class="titule">agency.</h1>
+					<h2 class="tproject">Project title:</h2>
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ipsa minus omnis facere assumenda, ratione aliquid laborum, accusamus voluptas sequi consequuntur magnam quibusdam explicabo dicta ullam itaque asperiores incidunt laboriosam.</p>
+				</div>
+			</article>
+			</div>
+		</section>
+		<section class="section">
+			<div class="cont">
+				<div class="container" onclick="menu(this)">
+			  <div class="bar1"></div>
+			  <div class="bar2"></div>
+			  <div class="bar3"></div>
+			</div>
+			<h2 class="logo">ferronato.</h2>
+			<div class="menu">
+				<a href="#"><p class="menutext">section1</p></a>
+				<a href="#"><p class="menutext">section</p></a>
+				<a href="#"><p class="menutext">section</p></a>
+				<a href="#"><p class="menutext">section</p></a>
+			</div>
+			<article class="sectdos">
+				<div class="color dos">
+					<h1 class="titule">agency.</h1>
+					<h2 class="tproject">Project title:</h2>
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ipsa minus omnis facere assumenda, ratione aliquid laborum, accusamus voluptas sequi consequuntur magnam quibusdam explicabo dicta ullam itaque asperiores incidunt laboriosam.</p>
+				</div>
+			</article>
+			</div>
+		</section>
+		<section class="section">
+			<div class="cont">
+				<div class="container" onclick="menu(this)">
+			  <div class="bar1"></div>
+			  <div class="bar2"></div>
+			  <div class="bar3"></div>
+			</div>
+			<h2 class="logo">ferronato.</h2>
+			<div class="menu">
+				<a href="#"><p class="menutext">section1</p></a>
+				<a href="#"><p class="menutext">section</p></a>
+				<a href="#"><p class="menutext">section</p></a>
+				<a href="#"><p class="menutext">section</p></a>
+			</div>
+			<article class="secttres">
+				<div class="color tres">
+					<h1 class="titule">agency.</h1>
+					<h2 class="tproject">Project title:</h2>
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ipsa minus omnis facere assumenda, ratione aliquid laborum, accusamus voluptas sequi consequuntur magnam quibusdam explicabo dicta ullam itaque asperiores incidunt laboriosam.</p>
+				</div>
+			</article>
+			</div>
+		</section>
+		<section class="section">
+			<div class="cont">
+				<div class="container" onclick="menu(this)">
+			  <div class="bar1"></div>
+			  <div class="bar2"></div>
+			  <div class="bar3"></div>
+			</div>
+			<h2 class="logo">ferronato.</h2>
+			<div class="menu">
+				<a href="#"><p class="menutext">section1</p></a>
+				<a href="#"><p class="menutext">section</p></a>
+				<a href="#"><p class="menutext">section</p></a>
+				<a href="#"><p class="menutext">section</p></a>
+			</div>
+			<article class="sectcuatro">
+				<div class="color cuatro">
+					<h1 class="titule">agency.</h1>
+					<h2 class="tproject">Project title:</h2>
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ipsa minus omnis facere assumenda, ratione aliquid laborum, accusamus voluptas sequi consequuntur magnam quibusdam explicabo dicta ullam itaque asperiores incidunt laboriosam.</p>
+				</div>
+			</article>
+			</div>
+		</section>
+	</div>
+
+
+<script>
+	function menu(x) {
+    x.classList.toggle("change");
+    $(".menu").toggleClass("show");
+    $(".menu").toggleClass("up");
+    $(".sectuno").toggleClass("up");
+    $(".sectdos").toggleClass("up");
+    $(".secttres").toggleClass("up");
+}
+$(document).ready(function() {
+$('#fulljs').fullpage({
+	navigation: true,
+	loopTop: true,
+	loopBottom: true,
+	parallax: true
+});
+});
+
+</script>
+
+</body>
+
+</html>
